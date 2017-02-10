@@ -1,0 +1,16 @@
+html *{
+	font-size: 40px;
+	border-box: border;
+}
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: oxygen, sans-serif;
+}
+h1{
+	font-size: 200%;
+	color: blue;
+	position: absolute; top: 30px; left:600px;
+	 text-shadow: 2px 1px white;
+}
