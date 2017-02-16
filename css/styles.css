@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+}
+.col-md-4, .col-md-4, .col-md-4{
+	float: left;
+   margin: 10px 10px 10px;
+   padding: 10px;
+   width: 90%;
+   height: 300px;
+   border: 1px solid black;
+	}
+	.container {
+    padding-right: 0;
+    margin-right: 0;
+   }
+   
+	#header-nav {
+		margin-right:17px;
+		margin-left:15px;
+		padding: 0;
+		background-color: Orange;
+		height: 60px;
+	}
+	.h1, .h3, h1, h2, h3 {
+	text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+h2{
+	text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+	
+	
+	@media(min-width: 767px){
+		#header-nav {
+		margin-right:23px;
+		margin-left:15px;
+		padding: 0;
+		background-color: Orange;
+		height: 60px;
+	}
+	
+	
+	.col-md-4, .col-md-4, .col-md-4{
+	position: relative;
+	width: 98%;
+	height: auto;
+	margin-left: 15px;
+	background-color:gray;
+	opacity: 0,8;
+   }
+	h3{
+	text-transform: bold;
+	margin-top:0;
+	text-align: center;
+  }
+  .panel-footer{
+	  margin-right: 5px;
+	  padding: 0;
+	  height: 40px;
+	  background-color: gray;
+	  border: 1px solid black;
+	  width: 99%;
+  }
+   .panel-footer .container{
+	width: 98%;
+	height: 40px;
+	margin: 0;
+  }	
+.navbar-right{
+	display: none;
+	}  
+	.container{
+		float: left;
+		margin-left:0;
+	}
+	.row {
+    margin-right: 0;
+    margin-left: -15px;
+ }
+}
+
+		
+	@media(max-width: 766px){
+		.col-sm-6, .col-sm-6, .col-sm-6{
+	background-color: skyblue;
+	position: relative;
+	width: 93%;
+	height: auto;
+	margin-left: 15px;
+   }
+	h3{
+	margin-top:0;
+	text-align: center;
+  }
+  .panel-footer{
+	  margin-right: 10px;
+	  padding: 0;
+	  height: 40px;
+	  background-color:skyblue;
+	  border: 1px solid black;
+	  width: 98%;
+  }
+   .panel-footer .container{
+	width: 92%;
+	height: 40px;
+	margin: 0;
+  }	
+.navbar-right{
+	margin: 5px;
+	}  
+	.container{
+		float: left;
+		margin-left:2px 15px 10px;
+		margin-bottom:10px;
+	}
+	h2{
+		float: right;
+		margin-right:140px;
+		text-align: left;
+		
+	}
+	
+	.navbar-toggle {
+    position: relative;
+    float: left;
+    padding: 9px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 18px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: blue;
+	opacity: 0.8;
+}
+
+    margin: 2px 2px 2px;
+}
