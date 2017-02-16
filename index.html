@@ -1,26 +1,187 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-<title>Module 3: Real client webPage</title>
-<meta charset="utf-8">
-<meta htt-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="cc/bootstrap.min.css">
-<link rel="stylesheet" href="css/stylesheet.css ">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400i|Oxygen" rel="stylesheet"> 
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
 <body>
-<!-- jQuerry (boostrap js plugins depend on it) -->
-<script src="js/jquerry-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
 <header>
-	<nav id="header-nav" class="navbar navbar-default">
-		<div class="container">
-		</div>
-  </nav>
-</header>
+    <nav id="header-nav" class="navbar navbar-default" class="hidden-md">
+      <div class="container">
+        <div class="navbar-header">
+            <h1>Food, LLC</h1>
+          </div>
 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse" >
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                </span><br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                </span><br class="hidden-xs"> Suschi</a>
+            </li>
+           </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
+  <div class="container-fluid">
+    <div class="row">
+	<div class="ourmenu"><h2>Our Menu</h2></div>
+	  
+      <div class="col-md-4 col-sm-6"><h3>Chicken</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Suspendisse lectus sem, rutrum sed vulputate nec, dictum a elit. 
+Curabitur aliquam odio sed cursus vulputate. Aliquam vestibulum lectus sapien. 
+Pellentesque et justo sodales, congue ante eu, tincidunt nibh. 
+Duis et massa enim. Sed nec sollicitudin est, ac finibus tellus. 
+Sed bibendum ligula elit, id porta leo ultrices non. Maecenas eu massa est. 
+Vestibulum sit amet velit et dolor ornare fringilla. Suspendisse eu urna mi. 
+Praesent sollicitudin, nisi in accumsan scelerisque, orci eros congue urna, 
+at iaculis felis nisl vel ipsum. Nullam eleifend cursus tincidunt. Proin quis orci a erat
+ fermentum elementum at et orci. Morbi leo sem, congue et ligula eget, sollicitudin rhoncus arcu.
+
+Morbi molestie libero elementum posuere pharetra. Aliquam vitae interdum massa. 
+Suspendisse potenti. Maecenas tincidunt neque lacus, sit amet placerat nunc molestie eget. 
+Suspendisse molestie, justo a congue semper, risus sapien venenatis risus, sit amet pellentesque 
+tellus diam sit amet erat. Maecenas rhoncus eros lectus, at tempor eros fringilla id. Mauris 
+ullamcorper ultricies tellus quis fermentum. Nunc ut tortor odio. Nulla at magna interdum, 
+venenatis ex in, eleifend ipsum. Integer finibus orci elit, non dictum velit euismod id. 
+Ut non magna ligula.
+
+Sed fermentum tincidunt bibendum. Praesent lacinia euismod nulla a auctor. Nunc efficitur, 
+nulla eu maximus interdum, neque quam venenatis libero, et efficitur diam sem quis mi. 
+Ut libero est, ornare at dignissim eu, elementum eu odio. Quisque tincidunt mi nec est volutpat egestas.
+ Etiam ut molestie tortor. Duis cursus, felis vel placerat vestibulum, lorem ante pellentesque arcu, 
+ sit amet mollis massa erat et dui. Morbi et feugiat ante. Duis sit amet auctor metus. Duis mattis, 
+ est in suscipit rutrum, enim diam porta justo, nec convallis mauris nulla quis nulla. 
+ Nullam efficitur auctor metus.
+
+Nulla eu dui erat. Nam non cursus lacus. In tortor mauris, bibendum quis eleifend non, 
+facilisis nec felis. Nulla facilisi. Duis molestie nunc est, eu malesuada purus aliquet 
+iaculis. Aenean quis purus molestie, pretium magna sed, porta magna. Integer euismod, 
+tortor at ultrices auctor, arcu nisi feugiat sem, vitae ornare nisl magna sit amet risus.
+
+Fusce vel varius quam. Vivamus pellentesque volutpat euismod. Mauris pellentesque 
+erat id venenatis pulvinar. Nullam in justo semper, convallis felis id, 
+sollicitudin odio. Pellentesque pulvinar urna at sapien vestibulum, nec tempus est sollicitudin. 
+Cras quis pretium elit, eu pharetra mauris. Donec pulvinar tempus dignissim. Phasellus 
+tristique eget neque at vehicula. Ut eget ex sit amet mauris vehicula eleifend. </p>
+	  </div>
+	   
+	  <div class="col-md-4 col-sm-6"><h3>Beef</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Suspendisse lectus sem, rutrum sed vulputate nec, dictum a elit. 
+Curabitur aliquam odio sed cursus vulputate. Aliquam vestibulum lectus sapien. 
+Pellentesque et justo sodales, congue ante eu, tincidunt nibh. 
+Duis et massa enim. Sed nec sollicitudin est, ac finibus tellus. 
+Sed bibendum ligula elit, id porta leo ultrices non. Maecenas eu massa est. 
+Vestibulum sit amet velit et dolor ornare fringilla. Suspendisse eu urna mi. 
+Praesent sollicitudin, nisi in accumsan scelerisque, orci eros congue urna, 
+at iaculis felis nisl vel ipsum. Nullam eleifend cursus tincidunt. Proin quis orci a erat
+ fermentum elementum at et orci. Morbi leo sem, congue et ligula eget, sollicitudin rhoncus arcu.
+
+Morbi molestie libero elementum posuere pharetra. Aliquam vitae interdum massa. 
+Suspendisse potenti. Maecenas tincidunt neque lacus, sit amet placerat nunc molestie eget. 
+Suspendisse molestie, justo a congue semper, risus sapien venenatis risus, sit amet pellentesque 
+tellus diam sit amet erat. Maecenas rhoncus eros lectus, at tempor eros fringilla id. Mauris 
+ullamcorper ultricies tellus quis fermentum. Nunc ut tortor odio. Nulla at magna interdum, 
+venenatis ex in, eleifend ipsum. Integer finibus orci elit, non dictum velit euismod id. 
+Ut non magna ligula.
+
+Sed fermentum tincidunt bibendum. Praesent lacinia euismod nulla a auctor. Nunc efficitur, 
+nulla eu maximus interdum, neque quam venenatis libero, et efficitur diam sem quis mi. 
+Ut libero est, ornare at dignissim eu, elementum eu odio. Quisque tincidunt mi nec est volutpat egestas.
+ Etiam ut molestie tortor. Duis cursus, felis vel placerat vestibulum, lorem ante pellentesque arcu, 
+ sit amet mollis massa erat et dui. Morbi et feugiat ante. Duis sit amet auctor metus. Duis mattis, 
+ est in suscipit rutrum, enim diam porta justo, nec convallis mauris nulla quis nulla. 
+ Nullam efficitur auctor metus.
+
+Nulla eu dui erat. Nam non cursus lacus. In tortor mauris, bibendum quis eleifend non, 
+facilisis nec felis. Nulla facilisi. Duis molestie nunc est, eu malesuada purus aliquet 
+iaculis. Aenean quis purus molestie, pretium magna sed, porta magna. Integer euismod, 
+tortor at ultrices auctor, arcu nisi feugiat sem, vitae ornare nisl magna sit amet risus.
+
+Fusce vel varius quam. Vivamus pellentesque volutpat euismod. Mauris pellentesque 
+erat id venenatis pulvinar. Nullam in justo semper, convallis felis id, 
+sollicitudin odio. Pellentesque pulvinar urna at sapien vestibulum, nec tempus est sollicitudin. 
+Cras quis pretium elit, eu pharetra mauris. Donec pulvinar tempus dignissim. Phasellus 
+tristique eget neque at vehicula. Ut eget ex sit amet mauris vehicula eleifend. </p>
+</div>
+ 
+      <div class="col-md-4 col-sm-6"><h3>Suschi</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Suspendisse lectus sem, rutrum sed vulputate nec, dictum a elit. 
+Curabitur aliquam odio sed cursus vulputate. Aliquam vestibulum lectus sapien. 
+Pellentesque et justo sodales, congue ante eu, tincidunt nibh. 
+Duis et massa enim. Sed nec sollicitudin est, ac finibus tellus. 
+Sed bibendum ligula elit, id porta leo ultrices non. Maecenas eu massa est. 
+Vestibulum sit amet velit et dolor ornare fringilla. Suspendisse eu urna mi. 
+Praesent sollicitudin, nisi in accumsan scelerisque, orci eros congue urna, 
+at iaculis felis nisl vel ipsum. Nullam eleifend cursus tincidunt. Proin quis orci a erat
+ fermentum elementum at et orci. Morbi leo sem, congue et ligula eget, sollicitudin rhoncus arcu.
+
+Morbi molestie libero elementum posuere pharetra. Aliquam vitae interdum massa. 
+Suspendisse potenti. Maecenas tincidunt neque lacus, sit amet placerat nunc molestie eget. 
+Suspendisse molestie, justo a congue semper, risus sapien venenatis risus, sit amet pellentesque 
+tellus diam sit amet erat. Maecenas rhoncus eros lectus, at tempor eros fringilla id. Mauris 
+ullamcorper ultricies tellus quis fermentum. Nunc ut tortor odio. Nulla at magna interdum, 
+venenatis ex in, eleifend ipsum. Integer finibus orci elit, non dictum velit euismod id. 
+Ut non magna ligula.
+
+Sed fermentum tincidunt bibendum. Praesent lacinia euismod nulla a auctor. Nunc efficitur, 
+nulla eu maximus interdum, neque quam venenatis libero, et efficitur diam sem quis mi. 
+Ut libero est, ornare at dignissim eu, elementum eu odio. Quisque tincidunt mi nec est volutpat egestas.
+ Etiam ut molestie tortor. Duis cursus, felis vel placerat vestibulum, lorem ante pellentesque arcu, 
+ sit amet mollis massa erat et dui. Morbi et feugiat ante. Duis sit amet auctor metus. Duis mattis, 
+ est in suscipit rutrum, enim diam porta justo, nec convallis mauris nulla quis nulla. 
+ Nullam efficitur auctor metus.
+
+Nulla eu dui erat. Nam non cursus lacus. In tortor mauris, bibendum quis eleifend non, 
+facilisis nec felis. Nulla facilisi. Duis molestie nunc est, eu malesuada purus aliquet 
+iaculis. Aenean quis purus molestie, pretium magna sed, porta magna. Integer euismod, 
+tortor at ultrices auctor, arcu nisi feugiat sem, vitae ornare nisl magna sit amet risus.
+
+Fusce vel varius quam. Vivamus pellentesque volutpat euismod. Mauris pellentesque 
+erat id venenatis pulvinar. Nullam in justo semper, convallis felis id, 
+sollicitudin odio. Pellentesque pulvinar urna at sapien vestibulum, nec tempus est sollicitudin. 
+Cras quis pretium elit, eu pharetra mauris. Donec pulvinar tempus dignissim. Phasellus 
+tristique eget neque at vehicula. Ut eget ex sit amet mauris vehicula eleifend. </p>
+</div>
+    </div>
+ 
+	<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">FOOTER</div>
+        
+      </div>
+      
+    </div>
+  </footer>
+    
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
